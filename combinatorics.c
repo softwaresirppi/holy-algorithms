@@ -23,7 +23,7 @@ void permute(int n, int* items, int from, int writer, int* order, uint8_t how) {
 }
 
 int main() {
-	int x[] = {1, 2, 3, 4, 5};
-	int order[5];
-	permute(5, x, 0, 0, order, ORDERED | DUPED);
+	int x[] = {1, 2, 3};
+	int order[3];
+	permute(3, x, 0, 0, order, ORDERED | DUPED);
 }
