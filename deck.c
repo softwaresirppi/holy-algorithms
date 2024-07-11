@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-// Todo:  Make it generic with Object type
-// primitives, pointer to something
+// Todo:  Make it generic with Object type (primitives, pointer to something)
+// Make it grow dynamically
 typedef unsigned int TYPE;
 typedef struct {
 	unsigned int start; // inclusive
